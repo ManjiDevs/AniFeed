@@ -1,0 +1,17 @@
+{
+  "name": "anifeed",
+  "version": "1.0.0",
+  "description": "Minimal AnimeSalt live feed — RSS & JSON for Vercel serverless",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["anime", "rss", "feed", "animesalt", "vercel"],
+  "license": "MIT",
+  "dependencies": {}
+}
